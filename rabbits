@@ -1,0 +1,5 @@
+ x,y = 31,5
+ a,b = 0,1
+ for i in xrange(1,x):
+    a,b = b,y*a+b
+ b
